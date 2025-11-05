@@ -7,13 +7,15 @@
 
 step1: install required packages
 - positron
+  
 pip install xlwings
 pip install pyinstaller
 
 step2: prepare code
 
 step3: 
-- termial
+- terminal
+  
 pyinstaller --noconsole --onefile autofit_excel_head_foot.py
 
 ```python
@@ -93,7 +95,7 @@ if __name__ == '__main__':
         if param == "Excel路径":
             btn = tk.Button(
                 root, text="浏览...",
-                command=lambda e=ent: select_file(e, (("Excel 文件", "*.xlsx;*.xlsm"), ("所有文件", "*.*")))
+                command=lambda e=ent: select_file(e, (("Excel 文件", "*.xlsx;*.xls"), ("所有文件", "*.*")))
             )
             btn.grid(row=i, column=2, padx=5)
         elif param == "Logo图片":
