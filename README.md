@@ -2,7 +2,8 @@
 
 ## autofit header and footer in excel using python
 
-![alt text](image.png)
+<img width="627" height="357" alt="image" src="https://github.com/user-attachments/assets/156bb6e8-f63f-4b62-8ca9-543ba2db419e" />
+
 
 step1: install required packages
 - positron
